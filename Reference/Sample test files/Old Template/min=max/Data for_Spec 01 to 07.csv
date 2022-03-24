@@ -1,0 +1,10 @@
+SpecID,MeasurementName,Value,Unit
+STD,STD,STD,STD
+Spec01,Offset Voltage,4,µA
+Spec02,Offset Voltage,4,µA
+Spec03,Offset Voltage,800,µA
+Spec04,Offset Voltage,20,V
+Spec05,Offset Voltage,299.9999,µA
+Spec06,Offset Voltage,400,µA
+Spec07,Offset Voltage,500,µA
+Spec08,Offset Voltage,599.0000001,µA

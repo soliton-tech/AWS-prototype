@@ -1,0 +1,19 @@
+﻿SpecID,MeasurementName,Value,Unit,Gain,temp,Supply Range
+STD,STD,STD,STD,COND,COND,COND
+4,Input Referred Voltage noise vs Freq,10,nV/rtHz,1,-55,1.7
+4,Input Referred Voltage noise vs Freq,20,nV/rtHz,1,-55,1.7
+4,Input Referred Voltage noise vs Freq,30,nV/rtHz,1,-55,1.7
+4,Input Referred Voltage noise vs Freq,40,nV/rtHz,1,-55,1.7
+4,Input Referred Voltage noise vs Freq,50,nV/rtHz,1,-55,1.7
+4,Input Referred Voltage noise vs Freq,10,nV/rtHz,1,0,1.7
+4,Input Referred Voltage noise vs Freq,20,nV/rtHz,1,0,1.7
+4,Input Referred Voltage noise vs Freq,30,nV/rtHz,1,0,1.7
+4,Input Referred Voltage noise vs Freq,40,nV/rtHz,1,0,1.7
+4,Input Referred Voltage noise vs Freq,10,nV/rtHz,1,55,1.7
+4,Input Referred Voltage noise vs Freq,20,nV/rtHz,1,55,1.7
+4,Input Referred Voltage noise vs Freq,0,nV/rtHz,1,65,1.7
+4,Input Referred Voltage noise vs Freq,1,nV/rtHz,1,65,1.7
+4,Input Referred Voltage noise vs Freq,2,nV/rtHz,1,65,1.7
+4,Input Referred Voltage noise vs Freq,0,nV/rtHz,1,-65,1.7
+4,Input Referred Voltage noise vs Freq,1,nV/rtHz,1,-65,1.7
+4,Input Referred Voltage noise vs Freq,2,nV/rtHz,1,-65,1.7

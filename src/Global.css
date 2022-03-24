@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.arrow {
+  height: 55px;
+  position: relative;
+}
+
+.arrow-button {
+  height: 18px;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.button-1 {
+  align-items: center;
+  background-color: #0BB585;
+  border: 2px solid #0BB585;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  font-family: roboto-medium;
+  height: 30px;
+  justify-content: center;
+  padding: 0 10px;
+  transition-duration: 0.1s;
+  width: auto;
+}
+
+.button-1:active {
+  transform: scale(0.95);
+}
+
+.button-1:hover {
+  background-color: rgba(11, 181, 133, 0.7);
+  border: 2px solid rgba(11, 181, 133, 0.7);
+}
+
+.button-2 {
+  align-items: center;
+  background-color: #FFF;
+  border: 2px solid #0BB585;
+  border-radius: 5px;
+  color: #0BB585;
+  cursor: pointer;
+  display: flex;
+  font-family: roboto-medium;
+  height: 30px;
+  justify-content: center;
+  padding: 0 10px;
+  transition-duration: 0.1s;
+  width: auto;
+}
+
+.button-2:active {
+  transform: scale(0.95);
+}
+
+.button-2:hover {
+  color: rgba(11, 181, 133, 0.7);
+  border: 2px solid rgba(11, 181, 133, 0.7);
+}
+
+.disable {
+  cursor: not-allowed !important;
+  opacity: 0.5 !important;
+  pointer-events: none;
+}
+
+.hide {
+  display: none !important;
+}
+
+.icon {
+  height: 75px;
+  position: relative;
+}
+
+.visibility-hide {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #fff;
+  height: 0;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  -webkit-border-radius: 6px;
+}
+
+@font-face {
+  font-family: 'Roboto-regular';
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-thin';
+  src: url("fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-medium';
+  src: url("fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-black';
+  src: url("fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-light';
+  src: url("fonts/Roboto-Light.ttf");
+}

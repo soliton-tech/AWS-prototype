@@ -1,0 +1,88 @@
+import json
+import urllib.parse
+import boto3
+import awswrangler as wr
+import csv
+import pandas as pd
+import numpy as np
+
+print('Loading function')
+
+s3 = boto3.client('s3')
+
+def lambda_handler(event, context):
+    
+    try:
+        #Get the bucket & filename
+        bucketName = event['Records'][0]['s3']['bucket']['name']
+        fileName = event['Records'][0]['s3']['object']['key']
+        
+        bucketName = 'solitonresearchbucket'
+        fileName = 'input/1.Functional.csv'
+
+        #Files Path
+        raw_s3_csv_output_path_dir = 'output'
+        raw_s3_output_path = f"s3://{bucketName}/{raw_s3_csv_output_path_dir}/"
+        
+        #append/concatinate all the files
+        li = []
+        new_path = f"s3://{bucketName}/{fileName}"
+        print(new_path)
+        df = wr.s3.read_csv(new_path, skipinitialspace=True)
+        li.append(df)
+        
+        raw_df = pd.concat(li, axis=0, ignore_index=True)
+
+        #Get the column headers with datatype
+        dictionary = dict(raw_df.dtypes)
+        new_dictionary = dict()
+        for i in dictionary:
+            if(str(dictionary[i]) == 'int64'):
+                new_dictionary[i]= 'double'
+            elif(str(dictionary[i]) == 'float64'):
+                new_dictionary[i]= 'double'
+            else:
+                new_dictionary[i]= 'string'
+        print("Headers with datatype:",new_dictionary)
+        
+        #Database configuration
+        database = 'soliton_database'
+        table = 'sample_table'
+        
+        del dictionary
+        
+        s3_copy = boto3.resource('s3')
+        s3bucket = s3_copy.Bucket(bucketName)
+        
+        files_in_input = []
+        for f in  s3bucket.objects.filter(Prefix=raw_s3_csv_output_path_dir).all():
+            if(f.key.split('/')[0] == raw_s3_csv_output_path_dir):
+                if(f.key.split(raw_s3_csv_output_path_dir + "/")[1]):
+                    files_in_input.append(f.key.split(raw_s3_csv_output_path_dir + "/")[1])
+        
+        if len(files_in_input) > 0:
+            mode = 'append'
+        else:
+            mode = 'overwrite'
+
+        #Create a Parquet file
+        description = 'Sample Description'
+        partitioncolumns = {'SpecID'}
+        print(raw_df)
+        print(raw_s3_output_path)
+        print(mode)
+        print(database)
+        print(table)
+        print(new_dictionary)
+        print(description)
+        print(partitioncolumns)
+        wr.s3.to_parquet(df=raw_df, path=raw_s3_output_path, dataset=True, 
+                         mode=mode, database=database,
+        				 table = table, dtype = new_dictionary,
+        				 description = description, partition_cols=partitioncolumns)
+        
+        return ""
+    except Exception as e:
+        print(e)
+        print('Error getting object {} from bucket {}. Make sure they exist and your bucket is in the same region as this function.')
+        raise e

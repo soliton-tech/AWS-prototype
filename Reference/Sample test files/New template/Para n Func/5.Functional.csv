@@ -1,0 +1,19 @@
+﻿SpecID,MeasurementName,Value,Gain,Supply Range,temp
+STD,STD,STD,COND,COND,COND
+1005,Functional 5,pass,1,low,Hot
+1005,Functional 5,PASS,1,high,Very hot
+1005,Functional 5,TRUE,1,low,Hot
+1005,Functional 5,GOOD,1,high,Very hot
+1005,Functional 5,1,1,low,Hot
+1005,Functional 5,0,1,high,Very hot
+1005,Functional 5,pass,1,low,Hot
+1005,Functional 5,pass,1,high,Very hot
+1005,Functional 5,pass,1,low,Hot
+1005,Functional 5,pass,1,high,Very hot
+1005,Functional 5,pass,1,low,Hot
+1005,Functional 5,pass,1,Random,Very hot
+1005,Functional 5,pass,1,Abc,Hot
+1005,Functional 5,pass,1,Abcd,Very hot
+1005,Functional 5,pass,1,Medium,Hot
+1005,Functional 5,Fail,1,Very high,Very hot
+1005,Functional 5,pass,1,Very low,Hot

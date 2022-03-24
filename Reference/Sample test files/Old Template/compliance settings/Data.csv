@@ -1,0 +1,72 @@
+SpecID,MeasurementName,Value,Unit,Temperature
+STD,STD,STD,STD,COND
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 01,Offset Voltage,1,A,15
+Spec 02,Offset Voltage,1,A,15
+Spec 02,Offset Voltage,1.5,A,15
+Spec 02,Offset Voltage,2,A,15
+Spec 02,Offset Voltage,1.25,A,15
+Spec 02,Offset Voltage,1,A,15
+Spec 02,Offset Voltage,1.5,A,15
+Spec 02,Offset Voltage,2,A,15
+Spec 02,Offset Voltage,1.25,A,15
+Spec 02,Offset Voltage,1,A,15
+Spec 02,Offset Voltage,2,A,15
+Spec 03,Offset Voltage,1,A,15
+Spec 03,Offset Voltage,1.5,A,15
+Spec 03,Offset Voltage,2,A,15
+Spec 03,Offset Voltage,1.25,A,15
+Spec 03,Offset Voltage,1,A,15
+Spec 04,Offset Voltage,1.5,A,15
+Spec 04,Offset Voltage,2,A,15
+Spec 04,Offset Voltage,1.25,A,15
+Spec 04,Offset Voltage,1,A,15
+Spec 04,Offset Voltage,2,A,15
+Spec 05,Offset Voltage,1.5,A,15
+Spec 05,Offset Voltage,2,A,15
+Spec 05,Offset Voltage,1.25,A,15
+Spec 05,Offset Voltage,1,A,15
+Spec 05,Offset Voltage,2,A,15
+Spec 05,Offset Voltage,1.5,A,15
+Spec 06,Offset Voltage,1.5,A,15
+Spec 06,Offset Voltage,2,A,15
+Spec 06,Offset Voltage,1.25,A,15
+Spec 06,Offset Voltage,1,A,15
+Spec 06,Offset Voltage,2,A,15
+Spec 06,Offset Voltage,1.5,A,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+spec 07,Input Bias Current,0,pA,15
+Spec 08,Offset Voltage,3,A,15
+Spec 08,Offset Voltage,0,A,15
+Spec 08,Offset Voltage,1.5,A,15
+Spec 08,Offset Voltage,1.5,A,15
+Spec 08,Offset Voltage,1.5,A,15
+Spec 09,Offset Voltage,123,A,15
+Spec 09,Offset Voltage,0,A,15
+Spec 09,Offset Voltage,-1.5,A,15
+Spec 09,Offset Voltage,1.5,A,15
+Spec 09,Offset Voltage,1.5,A,15
+spec 10,Input Bias Current,1,A,15
+spec 10,Input Bias Current,1,A,15
+spec 10,Input Bias Current,2,A,15
+spec 10,Input Bias Current,2,A,15
+spec 10,Input Bias Current,2,A,15
+spec 10,Input Bias Current,1,A,15

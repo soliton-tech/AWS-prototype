@@ -1,0 +1,263 @@
+SpecID,MeasurementName,Value,Unit
+STD,STD,STD,STD
+Spec 01,Offset Voltage,0,µV
+Spec 01,Offset Voltage,0.125,µV
+Spec 01,Offset Voltage,0.25,µV
+Spec 01,Offset Voltage,0.375,µV
+Spec 01,Offset Voltage,0.5,µV
+Spec 01,Offset Voltage,0.625,µV
+Spec 01,Offset Voltage,0.75,µV
+Spec 01,Offset Voltage,0.875,µV
+Spec 01,Offset Voltage,1,µV
+Spec 01,Offset Voltage,1.125,µV
+Spec 01,Offset Voltage,1.25,µV
+Spec 01,Offset Voltage,1.375,µV
+Spec 01,Offset Voltage,1.5,µV
+Spec 01,Offset Voltage,1.625,µV
+Spec 01,Offset Voltage,1.75,µV
+Spec 01,Offset Voltage,1.875,µV
+Spec 01,Offset Voltage,2,µV
+Spec 01,Offset Voltage,2.125,µV
+Spec 01,Offset Voltage,2.25,µV
+Spec 01,Offset Voltage,2.375,µV
+Spec 01,Offset Voltage,2.5,µV
+Spec 01,Offset Voltage,2.625,µV
+Spec 01,Offset Voltage,2.75,µV
+Spec 01,Offset Voltage,2.875,µV
+Spec 01,Offset Voltage,3,µV
+Spec 01,Offset Voltage,3.125,µV
+Spec 01,Offset Voltage,3.25,µV
+Spec 01,Offset Voltage,3.375,µV
+Spec 01,Offset Voltage,3.5,µV
+Spec 01,Offset Voltage,3.625,µV
+Spec 01,Offset Voltage,3.75,µV
+Spec 01,Offset Voltage,3.875,µV
+Spec 01,Offset Voltage,4,µV
+Spec 01,Offset Voltage,4.125,µV
+Spec 01,Offset Voltage,4.25,µV
+Spec 01,Offset Voltage,4.375,µV
+Spec 01,Offset Voltage,4.5,µV
+Spec 01,Offset Voltage,4.625,µV
+Spec 01,Offset Voltage,4.75,µV
+Spec 01,Offset Voltage,4.875,µV
+Spec 01,Offset Voltage,5,µV
+Spec 02,Offset Voltage Drift,0,nV/°C
+Spec 02,Offset Voltage Drift,0.123,nV/°C
+Spec 02,Offset Voltage Drift,0.246,nV/°C
+Spec 02,Offset Voltage Drift,0.369,nV/°C
+Spec 02,Offset Voltage Drift,0.492,nV/°C
+Spec 02,Offset Voltage Drift,0.615,nV/°C
+Spec 02,Offset Voltage Drift,0.738,nV/°C
+Spec 02,Offset Voltage Drift,0.861,nV/°C
+Spec 02,Offset Voltage Drift,0.984,nV/°C
+Spec 02,Offset Voltage Drift,1.107,nV/°C
+Spec 02,Offset Voltage Drift,1.23,nV/°C
+Spec 02,Offset Voltage Drift,1.353,nV/°C
+Spec 02,Offset Voltage Drift,1.476,nV/°C
+Spec 02,Offset Voltage Drift,1.599,nV/°C
+Spec 02,Offset Voltage Drift,1.722,nV/°C
+Spec 02,Offset Voltage Drift,1.845,nV/°C
+Spec 02,Offset Voltage Drift,1.968,nV/°C
+Spec 02,Offset Voltage Drift,2.091,nV/°C
+Spec 02,Offset Voltage Drift,2.214,nV/°C
+Spec 02,Offset Voltage Drift,2.337,nV/°C
+Spec 02,Offset Voltage Drift,2.46,nV/°C
+Spec 02,Offset Voltage Drift,2.583,nV/°C
+Spec 02,Offset Voltage Drift,2.706,nV/°C
+Spec 02,Offset Voltage Drift,2.829,nV/°C
+Spec 02,Offset Voltage Drift,2.952,nV/°C
+Spec 02,Offset Voltage Drift,3.075,nV/°C
+Spec 02,Offset Voltage Drift,3.198,nV/°C
+Spec 02,Offset Voltage Drift,3.321,nV/°C
+Spec 02,Offset Voltage Drift,3.444,nV/°C
+Spec 02,Offset Voltage Drift,3.567,nV/°C
+Spec 02,Offset Voltage Drift,3.69,nV/°C
+Spec 02,Offset Voltage Drift,3.813,nV/°C
+Spec 02,Offset Voltage Drift,3.936,nV/°C
+Spec 02,Offset Voltage Drift,4.059,nV/°C
+Spec 02,Offset Voltage Drift,4.182,nV/°C
+Spec 02,Offset Voltage Drift,4.305,nV/°C
+Spec 02,Offset Voltage Drift,4.428,nV/°C
+Spec 02,Offset Voltage Drift,4.551,nV/°C
+Spec 02,Offset Voltage Drift,4.674,nV/°C
+Spec 02,Offset Voltage Drift,4.797,nV/°C
+Spec 02,Offset Voltage Drift,4.92,nV/°C
+Spec 02,Offset Voltage Drift,5.043,nV/°C
+Spec 02,Offset Voltage Drift,5.166,nV/°C
+Spec 02,Offset Voltage Drift,5.289,nV/°C
+Spec 02,Offset Voltage Drift,5.412,nV/°C
+Spec 02,Offset Voltage Drift,5.535,nV/°C
+Spec 02,Offset Voltage Drift,5.658,nV/°C
+Spec 02,Offset Voltage Drift,5.781,nV/°C
+Spec 02,Offset Voltage Drift,5.904,nV/°C
+Spec 02,Offset Voltage Drift,6.027,nV/°C
+Spec 02,Offset Voltage Drift,6.15,nV/°C
+Spec 02,Offset Voltage Drift,6.273,nV/°C
+Spec 02,Offset Voltage Drift,6.396,nV/°C
+Spec 02,Offset Voltage Drift,6.519,nV/°C
+Spec 02,Offset Voltage Drift,6.642,nV/°C
+Spec 02,Offset Voltage Drift,6.765,nV/°C
+Spec 02,Offset Voltage Drift,6.888,nV/°C
+Spec 02,Offset Voltage Drift,7.011,nV/°C
+Spec 02,Offset Voltage Drift,7.134,nV/°C
+Spec 02,Offset Voltage Drift,7.257,nV/°C
+Spec 02,Offset Voltage Drift,7.38,nV/°C
+Spec 02,Offset Voltage Drift,7.503,nV/°C
+Spec 02,Offset Voltage Drift,7.626,nV/°C
+Spec 02,Offset Voltage Drift,7.749,nV/°C
+Spec 02,Offset Voltage Drift,7.872,nV/°C
+Spec 02,Offset Voltage Drift,7.995,nV/°C
+Spec 02,Offset Voltage Drift,8.118,nV/°C
+Spec 02,Offset Voltage Drift,8.241,nV/°C
+Spec 02,Offset Voltage Drift,8.364,nV/°C
+Spec 02,Offset Voltage Drift,8.487,nV/°C
+Spec 02,Offset Voltage Drift,8.61,nV/°C
+Spec 02,Offset Voltage Drift,8.733,nV/°C
+Spec 02,Offset Voltage Drift,8.856,nV/°C
+Spec 02,Offset Voltage Drift,8.979,nV/°C
+Spec 02,Offset Voltage Drift,9.102,nV/°C
+Spec 02,Offset Voltage Drift,9.225,nV/°C
+Spec 02,Offset Voltage Drift,9.348,nV/°C
+Spec 02,Offset Voltage Drift,9.471,nV/°C
+Spec 02,Offset Voltage Drift,9.594,nV/°C
+Spec 02,Offset Voltage Drift,9.717,nV/°C
+Spec 02,Offset Voltage Drift,9.84,nV/°C
+Spec 02,Offset Voltage Drift,9.963,nV/°C
+Spec 02,Offset Voltage Drift,10.086,nV/°C
+Spec 02,Offset Voltage Drift,10.209,nV/°C
+Spec 02,Offset Voltage Drift,10.332,nV/°C
+Spec 02,Offset Voltage Drift,10.455,nV/°C
+Spec 02,Offset Voltage Drift,10.578,nV/°C
+Spec 02,Offset Voltage Drift,10.701,nV/°C
+Spec 02,Offset Voltage Drift,10.824,nV/°C
+Spec 02,Offset Voltage Drift,10.947,nV/°C
+Spec 02,Offset Voltage Drift,11.07,nV/°C
+Spec 02,Offset Voltage Drift,11.193,nV/°C
+Spec 02,Offset Voltage Drift,11.316,nV/°C
+Spec 02,Offset Voltage Drift,11.439,nV/°C
+Spec 02,Offset Voltage Drift,11.562,nV/°C
+Spec 02,Offset Voltage Drift,11.685,nV/°C
+Spec 02,Offset Voltage Drift,11.808,nV/°C
+Spec 02,Offset Voltage Drift,11.931,nV/°C
+Spec 02,Offset Voltage Drift,12.054,nV/°C
+Spec 02,Offset Voltage Drift,12.177,nV/°C
+Spec 02,Offset Voltage Drift,12.3,nV/°C
+Spec 02,Offset Voltage Drift,12.423,nV/°C
+Spec 02,Offset Voltage Drift,12.546,nV/°C
+Spec 02,Offset Voltage Drift,12.669,nV/°C
+Spec 02,Offset Voltage Drift,12.792,nV/°C
+Spec 02,Offset Voltage Drift,12.915,nV/°C
+Spec 02,Offset Voltage Drift,13.038,nV/°C
+Spec 02,Offset Voltage Drift,13.161,nV/°C
+Spec 02,Offset Voltage Drift,13.284,nV/°C
+Spec 02,Offset Voltage Drift,13.407,nV/°C
+Spec 02,Offset Voltage Drift,13.53,nV/°C
+Spec 02,Offset Voltage Drift,13.653,nV/°C
+Spec 02,Offset Voltage Drift,13.776,nV/°C
+Spec 02,Offset Voltage Drift,13.899,nV/°C
+Spec 02,Offset Voltage Drift,14.022,nV/°C
+Spec 02,Offset Voltage Drift,14.145,nV/°C
+Spec 02,Offset Voltage Drift,14.268,nV/°C
+Spec 02,Offset Voltage Drift,14.391,nV/°C
+Spec 02,Offset Voltage Drift,14.514,nV/°C
+Spec 02,Offset Voltage Drift,14.637,nV/°C
+Spec 02,Offset Voltage Drift,14.76,nV/°C
+Spec 02,Offset Voltage Drift,14.883,nV/°C
+Spec 03,Input Bias Current,-45,pA
+Spec 03,Input Bias Current,-43,pA
+Spec 03,Input Bias Current,-41,pA
+Spec 03,Input Bias Current,-39,pA
+Spec 03,Input Bias Current,-37,pA
+Spec 03,Input Bias Current,-35,pA
+Spec 03,Input Bias Current,-33,pA
+Spec 03,Input Bias Current,-31,pA
+Spec 03,Input Bias Current,-29,pA
+Spec 03,Input Bias Current,-27,pA
+Spec 03,Input Bias Current,-25,pA
+Spec 03,Input Bias Current,-23,pA
+Spec 03,Input Bias Current,-21,pA
+Spec 03,Input Bias Current,-19,pA
+Spec 03,Input Bias Current,-17,pA
+Spec 03,Input Bias Current,-15,pA
+Spec 03,Input Bias Current,-13,pA
+Spec 03,Input Bias Current,-11,pA
+Spec 03,Input Bias Current,-9,pA
+Spec 03,Input Bias Current,-7,pA
+Spec 03,Input Bias Current,-5,pA
+Spec 03,Input Bias Current,-3,pA
+Spec 03,Input Bias Current,-1,pA
+Spec 03,Input Bias Current,1,pA
+Spec 03,Input Bias Current,3,pA
+Spec 03,Input Bias Current,5,pA
+Spec 03,Input Bias Current,7,pA
+Spec 03,Input Bias Current,9,pA
+Spec 03,Input Bias Current,11,pA
+Spec 03,Input Bias Current,13,pA
+Spec 03,Input Bias Current,15,pA
+Spec 03,Input Bias Current,17,pA
+Spec 03,Input Bias Current,19,pA
+Spec 03,Input Bias Current,21,pA
+Spec 03,Input Bias Current,23,pA
+Spec 03,Input Bias Current,25,pA
+Spec 03,Input Bias Current,27,pA
+Spec 03,Input Bias Current,29,pA
+Spec 03,Input Bias Current,31,pA
+Spec 03,Input Bias Current,33,pA
+Spec 03,Input Bias Current,35,pA
+Spec 03,Input Bias Current,37,pA
+Spec 03,Input Bias Current,39,pA
+Spec 03,Input Bias Current,41,pA
+Spec 03,Input Bias Current,43,pA
+Spec 03,Input Bias Current,45,pA
+Spec 03,Input Bias Current,47,pA
+Spec 03,Input Bias Current,49,pA
+Spec 03,Input Bias Current,51,pA
+Spec 03,Input Bias Current,53,pA
+Spec 03,Input Bias Current,55,pA
+Spec 03,Input Bias Current,57,pA
+Spec 03,Input Bias Current,59,pA
+Spec 03,Input Bias Current,61,pA
+Spec 03,Input Bias Current,63,pA
+Spec 03,Input Bias Current,65,pA
+Spec 03,Input Bias Current,67,pA
+Spec 03,Input Bias Current,69,pA
+Spec 03,Input Bias Current,71,pA
+Spec 03,Input Bias Current,73,pA
+Spec 03,Input Bias Current,75,pA
+Spec 03,Input Bias Current,77,pA
+Spec 03,Input Bias Current,79,pA
+Spec 03,Input Bias Current,81,pA
+Spec 03,Input Bias Current,83,pA
+Spec 03,Input Bias Current,85,pA
+Spec 03,Input Bias Current,87,pA
+Spec 03,Input Bias Current,89,pA
+Spec 03,Input Bias Current,91,pA
+Spec 03,Input Bias Current,93,pA
+Spec 03,Input Bias Current,95,pA
+Spec 03,Input Bias Current,97,pA
+Spec 03,Input Bias Current,99,pA
+Spec 03,Input Bias Current,101,pA
+Spec 03,Input Bias Current,103,pA
+Spec 03,Input Bias Current,105,pA
+Spec 03,Input Bias Current,107,pA
+Spec 03,Input Bias Current,109,pA
+Spec 03,Input Bias Current,111,pA
+Spec 03,Input Bias Current,113,pA
+Spec 03,Input Bias Current,115,pA
+Spec 03,Input Bias Current,117,pA
+Spec 03,Input Bias Current,119,pA
+Spec 03,Input Bias Current,121,pA
+Spec 03,Input Bias Current,123,pA
+Spec 03,Input Bias Current,125,pA
+Spec 03,Input Bias Current,127,pA
+Spec 03,Input Bias Current,129,pA
+Spec 03,Input Bias Current,131,pA
+Spec 03,Input Bias Current,133,pA
+Spec 03,Input Bias Current,135,pA
+Spec 03,Input Bias Current,137,pA
+Spec 03,Input Bias Current,139,pA
+Spec 03,Input Bias Current,141,pA
+Spec 03,Input Bias Current,143,pA
+Spec 03,Input Bias Current,145,pA
+Spec 03,Input Bias Current,147,pA
+Spec 03,Input Bias Current,149,pA
