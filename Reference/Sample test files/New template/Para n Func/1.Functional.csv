@@ -1,0 +1,15 @@
+﻿SpecID,MeasurementName,Value,Gain,temp,Supply Range
+1001,Functional 1,Pass,1,Hot,High
+1001,Functional 1,1,1,very hot,very high
+1001,Functional 1,TRUE,1,Hot,High
+1001,Functional 1,Pass,1,very hot,very high
+1001,Functional 1,1,1,Hot,High
+1001,Functional 1,TRUE,1,very hot,very high
+1001,Functional 1,Pass,1,Hot,High
+1001,Functional 1,1,1,very hot,very high
+1001,Functional 1,TRUE,1,Hot,High
+1001,Functional 1,Pass,1,very hot,very high
+1001,Functional 1,1,1,Hot,High
+1001,Functional 1,TRUE,1,cold,very high
+1001,Functional 1,Pass,1,very cold,High
+1001,Functional 1,1,1,nothing,very high

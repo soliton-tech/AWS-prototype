@@ -1,0 +1,39 @@
+import json
+import boto3
+from botocore.exceptions import ClientError
+import time
+from os import environ
+
+qs = boto3.client('quicksight',region_name='us-east-1')
+sts = boto3.client('sts')
+
+ACCOUNT_ID = boto3.client('sts').get_caller_identity().get('Account')
+
+
+def getDashboardURL(accountId, quicksightNamespace, resetDisabled, undoRedoDisabled):
+    try:
+        response = qs.generate_embed_url_for_registered_user(AwsAccountId=ACCOUNT_ID,
+                                                            SessionLifetimeInMinutes=123,
+                                                            UserArn='arn:aws:quicksight:us-east-1:037711518441:user/default/SolitonNI-D2T',
+                                                            ExperienceConfiguration={
+                                                                'QuickSightConsole': {
+                                                                    'InitialPath': '/start'
+                                                                }
+                                                            }
+                                                        )
+        return {
+            'statusCode': 200,
+            'headers': {"Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Content-Type"},
+            'body': response,
+            'isBase64Encoded':  bool('false'),
+        }
+    except ClientError as e:
+        print(e)
+        return "Error generating embeddedURL: " + str(e)
+
+def lambda_handler(event, context):
+    url = getDashboardURL(ACCOUNT_ID, "default", True, True)['body']['EmbedUrl']
+    return {
+        'statusCode': 200,
+        'body': url
+    }

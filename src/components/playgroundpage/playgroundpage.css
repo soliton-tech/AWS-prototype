@@ -1,0 +1,10 @@
+.root-container {
+  height: 100%;
+  width: 100%;
+}
+
+.playground-container {
+  height: calc(100% - 100px);
+  margin: 25px 0;
+  width: 100%;
+}

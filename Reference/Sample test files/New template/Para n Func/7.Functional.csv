@@ -1,0 +1,16 @@
+﻿SpecID,MeasurementName,Value,Gain,temp,Supply Range
+STD,STD,STD,COND,COND,COND
+1007,Functional 7,1,1,hot,Low
+1007,Functional 7,1,1,cold,Very high
+1007,Functional 7,1,1,hot,Low
+1007,Functional 7,1,1,cold,Very high
+1007,Functional 7,1,1,hot,Low
+1007,Functional 7,1,1,cold,Very high
+1007,Functional 7,1,1,hot,Low
+1007,Functional 7,1,1,cold,Very high
+1007,Functional 7,1,1,hot,Low
+1007,Functional 7,1,1,cold,Very high
+1007,Functional 7,1,1,hot,Low
+1007,Functional 7,1,1,very hot,Very high
+1007,Functional 7,0,1,Very cold,Low
+1007,Functional 7,Fail,1,Random,High

@@ -1,0 +1,23 @@
+SpecID,MeasurementName,Value,Unit
+STD,STD,STD,STD
+Spec 01,A,1m,mV
+Spec 03,A,1.00E-03,mA
+Spec 04,A,1.00E-03,uA
+Spec 05,A,0.001,nA
+Spec 06,A,1u,pA
+Spec 07,A,1.00E-06,kA
+Spec 08,A,1.00E-09,MA
+Spec 02,A,0.000000001,GA
+Spec 09,A,1M,mV
+Spec 10,A,1.00E+03,mV
+Spec 11,A,1.00E+06,mV
+Spec 12,A,100000000,mV
+Spec 13,A,1G,
+Spec 14,A,1.00E+09,
+Spec 15,A,1.00E-12,
+Spec 16,A,1E-12,mA
+Spec 17,A,1k,uA
+Spec 18,A,1n,nA
+Spec 19,A,1p,uA
+Spec 20,A,0.001,nA
+Spec 21,A,0.001,pA

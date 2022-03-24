@@ -1,0 +1,6 @@
+.home-page-card-container {
+  height: calc(100% - 80px);
+  overflow: auto;
+  padding: 0 10px;
+  width: 100%;
+}

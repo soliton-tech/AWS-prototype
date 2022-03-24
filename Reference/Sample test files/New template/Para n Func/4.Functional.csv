@@ -1,0 +1,19 @@
+﻿SpecID,MeasurementName,Value,Gain,temp,Supply Range
+STD,STD,STD,COND,COND,COND
+1004,Functional 4,pass,1,hot,medium
+1004,Functional 4,pass,1,cold,high
+1004,Functional 4,Pass,1,hot,medium
+1004,Functional 4,TRUE,1,cold,high
+1004,Functional 4,pass,1,hot,medium
+1004,Functional 4,TRUE,1,cold,high
+1004,Functional 4,good,1,hot,medium
+1004,Functional 4,Good,1,cold,high
+1004,Functional 4,pass,1,hot,medium
+1004,Functional 4,pass,1,cold,high
+1004,Functional 4,pass,1,hot,medium
+1004,Functional 4,pass,1,Very hot,high
+1004,Functional 4,pass,1,very cold,medium
+1004,Functional 4,pass,1,not cold,high
+1004,Functional 4,pass,1,freeze,medium
+1004,Functional 4,bad,1,mild,high
+1004,Functional 4,pass,1,Nothin,medium

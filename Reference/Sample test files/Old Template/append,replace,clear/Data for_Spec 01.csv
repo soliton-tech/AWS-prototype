@@ -1,0 +1,7 @@
+﻿SpecID,MeasurementName,Value,Unit,A
+STD,STD,STD,STD,COND
+Spec 01,Offset Voltage,1,µV,1
+Spec 01,Offset Voltage,2,µV,1
+Spec 02,Offset Voltage Drift,5,V,1
+Spec 02,Offset Voltage Drift,10,V,1
+Spec 02,Offset Voltage Drift,10,V,2

@@ -1,0 +1,80 @@
+.action-buttons {
+  display: flex;
+}
+
+.button {
+  margin: 0 10px;
+}
+
+.file-name-message {
+  color: #222B45;
+  display: flex;
+  font-family: 'Roboto-medium';
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  justify-content: center;
+  line-height: 24px;
+}
+
+.repository-header {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.repository-actions {
+  display: flex;
+}
+
+.repository-container {
+  height: calc(100% - 40px);
+  margin: 20px;
+  width: calc(100% - 40px);
+}
+
+.repository-import {
+  align-items: center;
+  border: 2px solid rgba(143, 155, 179, 0.5);
+  border-radius: 5px;
+  border-style: dashed;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.repository-message {
+  color: #222B45;
+  font-family: 'Roboto-medium';
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.repository-table {
+  width: 100%;
+}
+
+.root-container {
+  height: 100%;
+  width: 100%;
+}
+
+tbody {
+  width: 100%;
+}
+
+th, td {
+  border-bottom: 2px solid rgba(143, 155, 179, 0.2);
+  font-family: 'Roboto-medium';
+  padding: 15px;
+  text-align: left;
+}
+
+tr {
+  width: 100%;
+}

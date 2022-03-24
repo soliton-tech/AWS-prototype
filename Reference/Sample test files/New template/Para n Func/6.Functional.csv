@@ -1,0 +1,16 @@
+﻿SpecID,MeasurementName,Value,Gain,temp,Supply Range
+STD,STD,STD,COND,COND,COND
+1006,Functional 6,Pass,1,hot,low
+1006,Functional 6,TRUE,1,cold,medium
+1006,Functional 6,Pass,1,hot,low
+1006,Functional 6,TRUE,1,cold,medium
+1006,Functional 6,Pass,1,hot,low
+1006,Functional 6,TRUE,1,cold,medium
+1006,Functional 6,Pass,1,hot,low
+1006,Functional 6,TRUE,1,cold,medium
+1006,Functional 6,Pass,1,hot,low
+1006,Functional 6,TRUE,1,cold,medium
+1006,Functional 6,1,1,hot,low
+1006,Functional 6,0,1,Very hot,very medium
+1006,Functional 6,FALSE,1,Very cold,very low
+1006,Functional 6,Fail,1,Freeze,Nothing
